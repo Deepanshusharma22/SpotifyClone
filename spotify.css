@@ -1,0 +1,343 @@
+*{
+    background-color: rgb(0, 0, 0);
+}
+.navigationBar{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: rgb(216, 213, 213);
+}
+.search_bar input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    width: 450px;
+    border-style: none;
+}
+ul{
+    display: flex;
+    align-items: center;
+    
+}
+.home i{
+    background-color: rgb(33 33 33);
+    border-radius: 50%;
+    padding: 10px;
+}
+li{
+    list-style: none;
+    padding: 10px;
+}
+.search_bar ion-icon {
+    font-size: 20px;
+    background-color: rgb(33 33 33);
+}
+i{
+    font-size: 20px;
+}
+.search_bar i{
+    background-color: rgb(33 33 33);
+}
+.search_bar{
+    display: flex;
+    align-items: center;
+    background-color: rgb(33 33 33);
+    border: rgb(33 33 33) solid 0.5px;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 5px;
+}
+.option button{
+    background-color: rgb(33 33 33);
+    color: rgb(177, 176, 176);
+    border-style: none;
+}
+.home button{
+    border-radius: 50%;
+}
+.otherOption1{
+    margin-left: 60px;
+}
+.otherOption button{
+    color: rgb(177, 176, 176);
+    border-style: none;
+    font-size: 18px;
+}
+.option button :hover{
+    color: white;
+    cursor: pointer;
+}
+.otherOption button:hover{
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+#login{
+    color: black;
+    background-color: white;
+    padding: 15px;
+    padding-inline: 20px;
+    border-radius: 30px;
+    font-weight: 700;
+    font-size: medium;
+}
+#login:hover{
+    color: black;
+}
+.otherOption ion-icon{
+    background-color: black;
+    font-size: 18px;
+}
+.otherOption1{
+    padding-inline: 5px;
+}
+.otherOption1 button{
+    margin-inline: -4px;
+}
+.search :hover{
+    border: 0.5px white solid;
+    color: rgb(220, 219, 219);
+}
+.search_bar button{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.search_bar:hover input,
+.search_bar:hover i,
+.search_bar:hover ion-icon{
+    color: white;
+    border: none;
+    outline: none;
+}
+.search_bar:hover input::placeholder{
+    color: white;
+    content: "what do you want to play? ctrlK";
+}
+.search i,
+.search ion-icon {
+    background: transparent; 
+}
+.home button :hover{
+    border: 0.5px solid rgb(153, 151, 151);
+}
+.hero_section{
+    display: flex;
+}
+.leftPannel{
+    color: white;
+    width: 30vw;
+    /* background-color: rgb(125, 20, 20); */
+}
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.top p{
+    font-size: 20px;
+}
+.top button{
+    color: rgb(201, 200, 200);
+    background-color: transparent;
+    border-radius: 50%;
+    font-weight: 500;
+    border-style: none;
+    padding-left: 12px;
+    padding-right: 12px;
+    
+    
+}
+.top button:hover{
+    color: white;
+    /* background-color: rgb(159, 158, 158); */
+    cursor: pointer;
+    border: 0.5px white solid;
+}
+.mid{
+    max-height: 300px;
+    overflow-y: auto;
+    scroll-snap-type: y mandatory;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+.midContent{
+    scroll-snap-align: start;
+    width: 25vw;
+    /* min-height: 200px; */
+    height: fit-content;
+    background-color: rgb(33 33 33);
+    padding-bottom: 20px;
+    border-radius: 20px;
+    padding: 20px ;
+    margin-bottom: 20px;
+}
+.mid::-webkit-scrollbar{
+    width: 10px;
+    height: 8px;
+}
+.mid::-webkit-scrollbar-track{
+    background: transparent;
+}
+.mid::-webkit-scrollbar-thumb{
+    background-color: rgb(159, 158, 158);
+}
+.midContent p{
+    background-color: rgb(33 33 33);
+    padding-left: 20px;
+}
+.midContent button{
+    scale: 1.2;
+    color: black;
+    background-color: white;
+    border-radius: 30px;
+    padding: 5px;
+    padding-inline: 10px;
+    font-weight: 700;
+    margin-left: 25px;
+}
+.midContent button:hover{
+    cursor: pointer;
+    scale: 1.25;
+}
+.end{
+    margin-left: 20px;
+}
+.end button{
+    align-items: center;
+    padding-inline: 10px;
+    color: white;
+    background: transparent;
+    border: white 0.5px solid;
+    border-radius: 30px;
+    font-weight: 700;
+    scale: 1.1;
+}
+.end button:hover{
+    cursor: pointer;
+    scale: 1.15;
+    border: white 0.5px solid;
+}
+a{
+    color: rgb(177, 176, 176);
+    text-decoration: none;
+    padding-inline: 5px;
+    font-size: 15px;
+}
+.midContent :first-child{
+    font-weight: 700;
+    font-size: 20px;
+}
+.underline:hover{
+    cursor: pointer;
+    text-decoration: underline white solid;
+}
+.RightPannel{
+    width: 70vw;
+}
+.writingSection{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.writingSection button{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: rgb(177, 176, 176);
+}
+.writingSection :first-child{
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+}
+.backgroundColor :hover{
+    background-color: rgb(56, 55, 55);
+}
+.box{
+    margin-left: 20px;
+    margin-top: 20px;
+    border: transparent;
+    width: 151px;
+    /* position: relative; */
+}
+.songName{
+    background: transparent;
+    
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+}
+.artistName{
+    background: transparent;
+}
+.song{
+    display: flex;
+    
+}
+.imageButton{
+    position: relative;
+    border-style: none;
+}
+.imageButton:hover{
+    cursor: pointer;
+}
+.playOver{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    padding-top: 20px;
+    background-color:rgb(30, 215, 96);
+    border-radius: 50%;
+    position: absolute;
+    bottom: 10px;
+    left: 100px;
+    opacity: 0;
+    z-index: 10;
+    transition: opacity 0.3s ease;
+}
+.playOver:hover{
+    background-color: rgb(87, 227, 136);
+}
+.playOver ion-icon{
+    background-color: rgb(30, 215, 96);
+    color: black;
+    font-size: 20px;
+    position: relative;
+    bottom: 10px;
+    right: 10px;
+}
+.playOver ion-icon:hover{
+    background: transparent;
+}
+.imageButton:hover .playOver{
+    opacity: 1;
+}
+.singer{
+    margin-top: 40px;
+    
+}
+.singerImage{
+    margin-top: 20px;
+    margin-left: 10px;
+    display: flex;
+}
+/* .circle{
+    margin-top: ;
+} */ 
+.artistImageButton img{
+    border-radius: 50%;
+    
+}
+.artistImageButton{
+    position: relative;
+    border-style: none;
+}
+.artistImageButton:hover .playOver{
+    opacity: 1;
+}
